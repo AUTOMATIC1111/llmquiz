@@ -1,0 +1,11 @@
+{
+    "name": "Alpaca",
+    "system": "",
+    "system_start": "",
+    "system_end": "\n\n\n",
+    "user_start": "### Instruction:\n",
+    "user_end": "\n\n\n",
+    "assistant_start": "### Response:\n",
+    "assistant_end": "\n\n\n",
+    "modelnames": ["Alpaca", "mythomax", "PiVoT-0.1-Evil"]
+}

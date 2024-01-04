@@ -1,0 +1,11 @@
+{
+    "name": "Noromaid",
+    "system": "",
+    "system_start": "### Instruction:\n",
+    "system_end": "\n\n",
+    "user_start": "### Input:\n",
+    "user_end": "\n\n",
+    "assistant_start": "### Response:\n",
+    "assistant_end": "\n\n",
+    "modelnames": ["noromaid"]
+}

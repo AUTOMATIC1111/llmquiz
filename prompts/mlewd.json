@@ -1,0 +1,11 @@
+{
+    "name": "MLewd",
+    "system": "Below is an instruction that describes a task. Write a response that appropriately completes the request.",
+    "system_start": "",
+    "system_end": "\n\n\n",
+    "user_start": "### Instruction:\n",
+    "user_end": "\n\n\n",
+    "assistant_start": "### Response:\n",
+    "assistant_end": "\n\n\n",
+    "modelnames": ["MLewd"]
+}

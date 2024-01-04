@@ -1,0 +1,11 @@
+{
+    "name": "Default",
+    "system": "",
+    "system_start": "",
+    "system_end": "",
+    "user_start": "TASK:\n",
+    "user_end": "\n",
+    "assistant_start": "SOLUTION:\n",
+    "assistant_end": "\n",
+    "priority": -10000
+}

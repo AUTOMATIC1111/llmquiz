@@ -1,0 +1,11 @@
+{
+    "name": "NeuralHermes",
+    "system": "You are a helpful assistant chatbot.",
+    "system_start": "<|im_start|>system\n",
+    "system_end": "\n",
+    "user_start": "<|im_start|>user\n",
+    "user_end": "<|im_start|>\n",
+    "assistant_start": "<|im_start|>assistant\n",
+    "assistant_end": "<|im_end|>\n",
+    "modelnames": ["NeuralHermes"]
+}

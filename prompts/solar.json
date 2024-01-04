@@ -1,0 +1,11 @@
+{
+    "name": "Solar",
+    "system": "",
+    "system_start": "",
+    "system_end": "",
+    "user_start": "<s> ### User:\n",
+    "user_end": "\n\n\n",
+    "assistant_start": "### Assistant:\n",
+    "assistant_end": "</s>\n\n\n",
+    "modelnames": ["Solar"]
+}

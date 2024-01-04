@@ -1,0 +1,102 @@
+{
+    "common_text": "Answer whether you agree with the statement:\n\n",
+    "multipliers": {
+        "ec": 0.125,
+        "soc": 0.0515
+    },
+    "questions": {
+        "globalisationinevitable": {
+            "name": "globalisationinevitable",
+            "question": "If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations.",
+            "answers": [
+                {
+                    "text": "Strongly disagree",
+                    "scores": {
+                        "ec": 5
+                    }
+                },
+                {
+                    "text": "Disagree",
+                    "scores": {
+                        "ec": 3
+                    }
+                },
+                {
+                    "text": "Agree",
+                    "scores": {
+                        "ec": -2
+                    }
+                },
+                {
+                    "text": "Strongly agree",
+                    "scores": {
+                        "ec": -4
+                    }
+                }
+            ],
+            "page": 1
+        },
+        "countryrightorwrong": {
+            "name": "countryrightorwrong",
+            "question": "I'd always support my country, whether it was right or wrong.",
+            "answers": [
+                {
+                    "text": "Strongly disagree",
+                    "scores": {
+                        "soc": -5
+                    }
+                },
+                {
+                    "text": "Disagree",
+                    "scores": {
+                        "soc": -3
+                    }
+                },
+                {
+                    "text": "Agree",
+                    "scores": {
+                        "soc": 3
+                    }
+                },
+                {
+                    "text": "Strongly agree",
+                    "scores": {
+                        "soc": 5
+                    }
+                }
+            ],
+            "page": 1
+        },
+        "proudofcountry": {
+            "name": "proudofcountry",
+            "question": "No one chooses their country of birth, so it's foolish to be proud of it.",
+            "answers": [
+                {
+                    "text": "Strongly disagree",
+                    "scores": {
+                        "soc": 5
+                    }
+                },
+                {
+                    "text": "Disagree",
+                    "scores": {
+                        "soc": 3
+                    }
+                },
+                {
+                    "text": "Agree",
+                    "scores": {
+                        "soc": -2
+                    }
+                },
+                {
+                    "text": "Strongly agree",
+                    "scores": {
+                        "soc": -4
+                    }
+                }
+            ],
+            "page": 1
+        }
+	}
+}

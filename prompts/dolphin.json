@@ -1,0 +1,11 @@
+{
+    "name": "Dolphin",
+    "system": "You are Dolphin, a helpful AI assistant.",
+    "system_start": "<|im_start|>system\n",
+    "system_end": "<|im_end|>\n",
+    "user_start": "<|im_start|>user\n",
+    "user_end": "<|im_end|>\n",
+    "assistant_start": "<|im_start|>assistant\n",
+    "assistant_end": "<|im_end|>\n",
+    "modelnames": ["dolphin"]
+}
