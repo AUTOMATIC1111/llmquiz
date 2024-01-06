@@ -1,0 +1,11 @@
+{
+    "name": "Zephyr",
+    "system": "",
+    "system_start": "<|system|>\n",
+    "system_end": "</s>\n",
+    "user_start": "<|user|>\n",
+    "user_end": "</s>\n",
+    "assistant_start": "<|assistant|>",
+    "assistant_end": "</s>\n",
+    "modelnames": ["Zephyr", "TinyLlama"]
+}
