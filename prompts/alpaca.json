@@ -7,5 +7,5 @@
     "user_end": "\n\n",
     "assistant_start": "### Response:\n",
     "assistant_end": "\n\n",
-    "modelnames": ["Alpaca", "mythomax", "PiVoT-0.1-Evil"]
+    "modelnames": ["Alpaca", "mythomax", "PiVoT-0.1-Evil", "LimaRP-ZLoss"]
 }

@@ -1,0 +1,12 @@
+{
+    "name": "LLaMA",
+    "system": "",
+    "system_start": "",
+    "system_end": "",
+    "user_start": "[INST] ",
+    "user_end": " ",
+    "assistant_start": "[/INST]",
+    "assistant_end": "",
+    "modelnames": ["LLaMA"],
+    "priority": -1000
+}

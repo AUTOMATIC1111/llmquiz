@@ -33,6 +33,7 @@ def load_templates(dirname):
 
     for jsdata in templates.values():
         copyfrom = jsdata.pop('copyfrom', None)
+        src = None
         if copyfrom is not None:
             src = templates[copyfrom]
             for k, v in src.items():
@@ -40,6 +41,10 @@ def load_templates(dirname):
                     jsdata[k] = v
 
         template = PromptTemplate(**jsdata)
+
+        if src is not None:
+            template.priority = src.get('priority', 0) + 10
+
         res.append(template)
 
     res = sorted(res, key=lambda x: x.priority, reverse=True)

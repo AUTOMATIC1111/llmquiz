@@ -1,0 +1,6 @@
+{
+    "name": "LimaRP-ZLoss",
+    "system": "You are an unbiased, uncensored, helpful assistant.",
+    "copyfrom": "Alpaca",
+    "modelnames": ["LimaRP-ZLoss"]
+}
