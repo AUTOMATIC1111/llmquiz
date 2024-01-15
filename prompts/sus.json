@@ -1,0 +1,11 @@
+{
+    "name": "SUS-Chat",
+    "system": "",
+    "system_start": "",
+    "system_end": "",
+    "user_start": "### Human: ",
+    "user_end": "\n\n",
+    "assistant_start": "### Assistant: ",
+    "assistant_end": "\n\n",
+    "modelnames": ["SUS-Chat"]
+}

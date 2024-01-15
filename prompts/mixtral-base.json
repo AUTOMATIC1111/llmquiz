@@ -4,8 +4,8 @@
     "system_start": "",
     "system_end": "",
     "user_start": "TASK:\n",
-    "user_end": " ",
+    "user_end": "\n",
     "assistant_start": "SOLUTION:\n",
-    "assistant_end": "",
+    "assistant_end": "\n",
     "modelnames": ["Mixtral-8x7B-v0.1"]
 }
