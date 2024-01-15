@@ -53,8 +53,15 @@ def load_templates(dirname):
     prompt_templates.extend(res)
 
 
-def find_prompt_template(modelname):
+def find_prompt_template(modelname, force=None):
     target = modelname.lower()
+
+    if force:
+        for x in prompt_templates:
+            if x.name == force:
+                return x
+
+        raise Exception(f"Couldn't find prompt template named {force}")
 
     for x in prompt_templates:
         for name in x.modelnames or []:

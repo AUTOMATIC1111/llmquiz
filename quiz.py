@@ -17,6 +17,8 @@ parser.add_argument('--questions', help='json file with questions', default='que
 parser.add_argument('--outdir', help='output directory', default='models')
 parser.add_argument('--api', help='API URL for ooba text ui', default='http://127.0.0.1:5000')
 parser.add_argument('--promptdir', help='directory with prompt templates for different models', default='prompts')
+parser.add_argument('--template', help='force prompt format with specified name')
+parser.add_argument('--sysprompt', help='use custom system prompt from file')
 args = parser.parse_args()
 
 question_letters = ['M', 'N', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', ]
@@ -123,9 +125,13 @@ dummy = request('hello', {"logprobs": 2, "temperature": 0.001, "max_tokens": 2})
 model = dummy["model"]
 print(f"Model: {model}")
 
-prompt_template = utils.find_prompt_template(model)
+prompt_template = utils.find_prompt_template(model, force=args.template)
 system_prompt = prompt_template.system
 print(f"Template: {prompt_template.name}")
+
+if args.sysprompt:
+    with open(args.sysprompt, encoding="utf8") as file:
+        system_prompt = file.read()
 
 os.makedirs(args.outdir, exist_ok=True)
 path = os.path.join(args.outdir, f'{model}.json')
