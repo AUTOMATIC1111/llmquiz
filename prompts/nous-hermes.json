@@ -1,0 +1,6 @@
+{
+    "name": "NousHermes",
+    "system": "You are Hermes 2.",
+    "copyfrom": "ChatML",
+    "modelnames": ["Nous-Hermes"]
+}
