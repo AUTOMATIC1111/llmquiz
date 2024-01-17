@@ -33,7 +33,7 @@ db = question_db["questions"]
 utils.load_templates(args.promptdir)
 
 
-def request(prompt, extra=None, path='v1/completions'):
+def request(prompt, extra=None, path='v1/completions', use_prompt_template=False):
     url = f"{args.api}/{path}"
 
     headers = {
@@ -44,6 +44,7 @@ def request(prompt, extra=None, path='v1/completions'):
         "mode": "instruct",
         "max_tokens": 0,
         "prompt": prompt,
+        "stop": list({prompt_template.assistant_end, prompt_template.assistant_end.strip()}) if use_prompt_template else [],
     }
 
     data.update(extra)
@@ -121,7 +122,7 @@ def quiz(question, letters, answer_start=None):
     )
 
 
-dummy = request('hello', {"logprobs": 2, "temperature": 0.001, "max_tokens": 2})
+dummy = request('hello', {"logprobs": 2, "temperature": 0.001, "max_tokens": 2}, use_prompt_template=False)
 model = dummy["model"]
 print(f"Model: {model}")
 
