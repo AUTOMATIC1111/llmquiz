@@ -1,0 +1,11 @@
+{
+    "name": "TenyxChat",
+    "system": "",
+    "system_start": "System: ",
+    "system_end": "<|end_of_turn|>\n",
+    "user_start": "User: ",
+    "user_end": "<|end_of_turn|>\n",
+    "assistant_start": "Assistant: ",
+    "assistant_end": "<|end_of_turn|>\n",
+    "modelnames": ["TenyxChat"]
+}
