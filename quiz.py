@@ -42,10 +42,9 @@ def request(prompt, extra=None, path='v1/completions', use_prompt_template=False
     }
 
     data = {
-        "mode": "instruct",
         "max_tokens": 0,
         "prompt": prompt,
-        "stop": list({prompt_template.assistant_end, prompt_template.assistant_end.strip()}) if use_prompt_template else [],
+        "stop": list({prompt_template.assistant_end, prompt_template.user_start, prompt_template.assistant_end.strip(), prompt_template.user_start.strip(), }) if use_prompt_template else [],
     }
 
     data.update(extra)
