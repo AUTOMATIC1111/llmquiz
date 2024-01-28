@@ -7,5 +7,5 @@
     "user_end": "<|im_end|>\n",
     "assistant_start": "<|im_start|>assistant\n",
     "assistant_end": "<|im_end|>\n",
-    "modelnames": ["ChatML"]
+    "modelnames": ["ChatML", "Air-Striker"]
 }
